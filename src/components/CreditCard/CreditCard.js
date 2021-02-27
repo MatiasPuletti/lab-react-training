@@ -1,6 +1,6 @@
 import { React } from 'react';
 import './CreditCard.css';
-export { CreditCard };
+
 
 
 const CreditCard = ({
@@ -45,3 +45,4 @@ const CreditCard = ({
   );
 };
 
+export { CreditCard };

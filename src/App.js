@@ -5,6 +5,7 @@ import { Greetings } from './components/Greetings/Greetings';
 import { Random } from './components/Random/Random';
 import { BoxColor } from './components/BoxColor/BoxColor';
 import { CreditCard } from './components/CreditCard/CreditCard';
+import { Rating } from './components/Rating/Rating';
 
 function App() {
   return (
@@ -44,7 +45,8 @@ function App() {
         bank="BNP"
         owner="Maxence Bouret"
         bgColor="#11aa99"
-        color="white" />
+        color="white"
+      />
       <CreditCard
         type="Master Card"
         number="0123456789010995"
@@ -53,7 +55,8 @@ function App() {
         bank="N26"
         owner="Maxence Bouret"
         bgColor="#eeeeee"
-        color="black" />
+        color="black"
+      />
       <CreditCard
         type="Visa"
         number="0123456789016984"
@@ -62,8 +65,15 @@ function App() {
         bank="Name of the Bank"
         owner="Firstname Lastname"
         bgColor="#ddbb55"
-        color="white" />
-
+        color="white"
+      />
+      <h1>Iteration 7 | Rating </h1>
+      <Rating>0</Rating>
+      <Rating>1.49</Rating>
+      <Rating>1.5</Rating>
+      <Rating>3</Rating>
+      <Rating>4</Rating>
+      <Rating>5</Rating>
     </React.Fragment>
   );
 }
