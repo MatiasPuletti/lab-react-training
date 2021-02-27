@@ -11,4 +11,5 @@
 .card-description {
     padding-left: 10px;
     line-height: 0.35em;
+    font-weight: bold;
 }

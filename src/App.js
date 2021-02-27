@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { IdCard } from './components/IdCard/IdCard';
+import { Greetings } from './components/Greetings/Greetings';
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         height={172 + 'm'}
         birthday={new Date('1996-06-13').toString().slice(0, 15)}
       />
+      <h1>Iteration 2 | Greetings </h1>
+        <Greetings lang="de">Ludwig</Greetings>
+        <Greetings lang="fr">Michelle</Greetings>
     </React.Fragment>
   );
 }
