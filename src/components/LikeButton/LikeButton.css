@@ -1,0 +1,11 @@
+.LikeButton {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .likeBtn {
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+    margin: 0 5px;
+  }
