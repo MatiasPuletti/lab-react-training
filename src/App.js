@@ -8,6 +8,7 @@ import { CreditCard } from './components/CreditCard/CreditCard';
 import { Rating } from './components/Rating/Rating';
 import { DriverCard } from './components/DriverCard/DriverCard';
 import { LikeButton } from './components/LikeButton/LikeButton';
+import { SignupPage } from './components/SignupPage/SignupPage';
 
 function App() {
   return (
@@ -97,8 +98,11 @@ function App() {
       />
       <h1>Iteration 8 | Like Button </h1>
       <div className="LikeButton">
-        <LikeButton /><LikeButton />
+        <LikeButton />
+        <LikeButton />
       </div>
+      <h1>Iteration 15 | Sign up page </h1>
+      <SignupPage />
     </React.Fragment>
   );
 }
